@@ -1,0 +1,68 @@
+@import 'compass/css3';
+// Import Bootstrap Compass integration
+@import "compass_twitter_bootstrap";
+section {
+    display: table;
+    width: 100%;
+    max-width: 1920px;
+    min-width: 800px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+.clearfix {
+	z-index: 0;
+	-height: 1%;
+	*zoom: 1;
+	display: table;
+}
+.cont1 {
+    background: url(../img/cont1.jpg);
+    background-size: cover;
+    img {
+        text-align: center;
+        margin: 0 auto;
+        position: absolute;
+        top: 20%;
+        left: 40%;
+    }
+}
+.cont2{
+    background: url(../img/cont2.jpg)0 0 repeat;
+    malign:0 auto;
+    .content2{
+        margin: 0 auto;
+        width: 90%;
+    }
+    .tabs{ 
+        margin:0 auto;
+        ul li{
+            width: 247px;
+            float: left;
+            margin-left: 10px;
+            overflow: hidden;
+            position: relative;
+            z-index: 2;
+            height: 250px;
+            @include border-radius(100%);
+        
+            img{
+            width: 350px;
+            height: 350px;  
+            
+                }
+            }
+            .tabtext{
+                    padding: 50px;
+                    position: relative;
+                    clear: both;
+                    margin: 0 0 50px 0;
+                    background: rgba(197, 177, 177, 0.82);
+                    top: 20px;
+            }
+      }
+}
+.cont3{
+    background: url(../img/cont3.jpg);
+    background-size: cover;
+}
